@@ -1,23 +1,23 @@
 package br.com.zup;
 
 public class Calculadora {
-    public Double somar(Double n1, Double n2) {
+    public Integer somar(Integer n1, Integer n2) {
         return n1 + n2;
     }
 
-    public Double subtrair(Double n1, Double n2) {
+    public Integer subtrair(Integer n1, Integer n2) {
         return n1 - n2;
     }
 
-    public Double dividir(Double n1, Double n2) {
+    public Integer dividir(Integer n1, Integer n2) {
         return n1 / n2;
     }
 
-    public Double multiplicar(Double n1, Double n2) {
+    public Integer multiplicar(Integer n1, Integer n2) {
         return n1 * n2;
     }
 
-    public Double modulo(Double n1, Double n2) {
+    public Integer modulo(Integer n1, Integer n2) {
         return n1 % n2;
     }
 }

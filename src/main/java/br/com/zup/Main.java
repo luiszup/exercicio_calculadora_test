@@ -9,9 +9,9 @@ public class Main {
         Calculadora calculadora = new Calculadora();
 
         System.out.println("Digite o primeiro número: ");
-        double numero1 = input.nextInt();
+        Integer numero1 = input.nextInt();
         System.out.println("Digite o segundo número: ");
-        double numero2 = input.nextDouble();
+        Integer numero2 = input.nextInt();
         System.out.println("Digite qual operação realizar (+, -, /, *, %)");
         char operador = input.next().charAt(0);
 

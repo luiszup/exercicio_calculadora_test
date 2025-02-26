@@ -8,4 +8,8 @@ public class Calculadora {
     public Double subtrair(Double n1, Double n2) {
         return n1 - n2;
     }
+
+    public Double dividir(Double n1, Double n2) {
+        return n1 / n2;
+    }
 }
